@@ -2,11 +2,18 @@ body {
     font-family: Arial, sans-serif;
     background: #f5f5f5;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 0px;
+}
+header{
+    background: #34495e;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+    margin-bottom: 0px;
 }
 
 h1 {
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 .btn {
@@ -32,4 +39,96 @@ h1 {
 .home.btn:hover{
     background: #1e8449;
 }
+a {
+  text-decoration: none;
+}
 
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f3f3f3;
+}
+
+header {
+    background: #34495e;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+}
+
+nav {
+    background: #2c3e50;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+
+nav a:hover {
+    background: #1a252f;
+}
+
+footer {
+    text-align: center;
+    background: #34495e;
+    color: white;
+    padding: 10px 0;
+    margin-top: 60px;
+}
+
+
+
+.panel-title {
+    text-align: center;
+    background: #ecf0f1;
+    padding: 40px 0;
+}
+
+.panel-title h2 {
+    margin: 0;
+    font-size: 32px;
+    color: #333;
+}
+
+.panel-title p {
+    color: #555;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+
+.btn-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+.btn {
+    width: 80%;
+    max-width: 450px;
+    padding: 18px;
+    background: #3498db;  
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #2980b9;
+    transform: translateY(-3px);
+}
