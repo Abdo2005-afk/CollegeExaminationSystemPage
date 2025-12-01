@@ -1,0 +1,102 @@
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: #f3f3f3;
+}
+
+
+header {
+background: #34495e;
+color: white;
+text-align: center;
+padding: 25px 0;
+margin-top:-20px ;
+}
+
+nav {
+background: #2c3e50;
+display: flex;
+justify-content: center;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+padding: 15px 20px;
+display: block;
+border-radius: 6px;
+margin: 10px 0;
+background: #3498db;
+text-align: center;
+}
+
+nav a:hover {
+background: #2d86c9;
+}
+
+
+.hero {
+text-align: center;
+padding: 30px 20px;
+background: #ecf0f1;
+}
+
+
+.form-container {
+width: 60%;
+margin: 30px auto;
+background: #fff;
+padding: 30px;
+border-radius: 8px;
+box-shadow: 0 0 10px #bbb;
+}
+
+.form-container label {
+display: block;
+margin-bottom: 8px;
+font-weight: bold;
+}
+
+.form-container input[type="text"],
+.form-container input[type="number"],
+.form-container textarea {
+width: 100%;
+padding: 10px;
+margin-bottom: 20px;
+border-radius: 6px;
+border: 1px solid #ccc;
+font-size: 16px;
+}
+
+.form-container textarea {
+resize: vertical;
+height: 100px;
+}
+
+
+.btn {
+padding: 12px 25px;
+font-size: 16px;
+background: #3498db;
+color: white;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #2d86c9;
+}
+
+
+footer {
+text-align: center;
+background: #34495e;
+color: white;
+padding: 10px 0;
+margin-top: 30px;
+}
+footer p {
+    margin: 0;
+}
