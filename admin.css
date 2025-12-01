@@ -46,11 +46,11 @@ nav form button{
     padding: 5px 10px;
 }
 
-.Modifying_User{
+.Admin{
     background-color: whitesmoke;
     height: fit-content;
 }
-.Modifying_User h2{
+.Admin h2{
     text-align: center;
     margin-top: 40px;
     color: #2c3e50;
@@ -70,6 +70,14 @@ nav form button{
 }
 .card input{
     width:fit-content;
+    text-decoration: none;
+    background-color: white;
+    color: #2c3e50;
+    border-radius: 8px;
+    padding: 7.5px;
+}
+.card select{
+    width: fit-content;
     text-decoration: none;
     background-color: white;
     color: #2c3e50;

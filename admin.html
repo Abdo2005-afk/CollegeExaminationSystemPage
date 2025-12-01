@@ -26,7 +26,7 @@
         </form>
     </nav>
 
-    <section class="Modifying_User">
+    <section class="Admin">
         <h2>Modifying User</h2>
         <div class="card">
             <h3>Add User</h3>
@@ -36,6 +36,15 @@
             <input type="text" placeholder="Enter last name...">
             <h5>Enter ID</h5>
             <input type="text" placeholder="Enter ID...">
+            <h5>Enter Password</h5>
+            <input type="text" placeholder="Enter Password...">
+            <h5>Enter Department</h5>
+            <input type="" placeholder="Enter Department...">
+            <h5>Select Role</h5>
+            <select>
+                <option>Student</option>
+                <option>Lecturer</option>
+            </select>
             <button type="submit">Add User</button>
         </div>
 
@@ -52,7 +61,81 @@
 
         <div class="card">
             <h3>Update User Info</h3>
-            <p>Students can take exams, view results, and submit re-evaluation requests.</p>
+            <h5>Update First Name:</h5>
+            <input type="text" placeholder="Enter first name...">
+            <h5>Update Last Name</h5>
+            <input type="text" placeholder="Enter last name...">
+            <h5>Update ID</h5>
+            <input type="text" placeholder="Enter ID...">
+            <h5>Update Password</h5>
+            <input type="text" placeholder="Enter Password...">
+            <h5>Update Department</h5>
+            <input type="" placeholder="Enter Department...">
+            <button type="submit">Update User</button>
+        </div>
+    </section>
+
+<!-- Subject Section -->
+    <section class="Admin">
+        <h2>Subjects Section</h2>
+        <div class="card">
+            <h3>Create Subject</h3>
+            <h5>Enter Subject Name:</h5> 
+            <input type="text" placeholder="Enter subject name..."> 
+            <h5>Enter Subject ID</h5> 
+            <input type="text" placeholder="Enter subject id...">
+            <h5>Enter Subject Credit Hours</h5> 
+            <input type="text" placeholder="Enter hours...">
+            <h5>Select Lecturer</h5>
+            <select>
+                <option>Dr. Ahmed</option>
+                <option>Dr. Mona</option>
+                <option>Dr. Samy</option>
+            </select>
+            <h5>Select Subject Level</h5>
+            <select>
+                <option>Level 1</option>
+                <option>Level 2</option>
+                <option>Level 3</option>
+                <option>Level 4</option>
+            </select>
+            <h5>Select Department</h5>
+            <select>
+                <option>CS</option>
+                <option>IT</option>
+                <option>IS</option>
+                <option>AI</option>
+            </select>
+            <button type="submit">Create Subject</button>
+        </div>
+
+        <div class="card">
+            <h3>Assign Subject To Student</h3>
+            <h5>Enter Subject ID</h5>
+            <input type="text" placeholder="Enter subject id...">
+            <h5>Enter Student id</h5>
+            <input type="text" placeholder="Enter student name...">
+            <button type="submit">Assign Subject</button>
+        </div>
+    </section>
+
+<!-- Results Section -->
+
+    <section class="Admin">
+        <h2>Results Section</h2>
+        <div class="card">
+            <h3>Review Results</h3>
+            <h5>Enter Exam ID</h5> 
+            <input type="text" placeholder="Enter exam id...">
+            <button type="submit">Review</button>
+        </div>
+
+        <div class="card">
+            <h3>Approve And Publish Results</h3>
+            <h5>Enter Exam ID</h5>
+            <input type="text" placeholder="Enter exam id...">
+            
+            <button type="submit">Publish</button>
         </div>
     </section>
 
