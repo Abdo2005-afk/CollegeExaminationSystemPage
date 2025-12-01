@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Lecturer Panel</title>
-    <link rel="stylesheet" href="lecturer.css" />
+    <title>Automatic Grading</title>
+    <link rel="stylesheet" href="automatic_grading.css" />
   </head>
   <body>
     <header>
@@ -20,16 +20,23 @@
     </nav>
 
     <section class="hero">
-      <h2>Lecturer Panel</h2>
-      <p>Select an action from the options below</p>
+      <h2>Automatic Grading</h2>
+      <p>Select an exam to start automatic grading</p>
     </section>
 
-    <div class="btn-container">
-      <a class="btn" href="create_exams.html">Create / Manage Exams</a>
-      <a class="btn" href="add_questions.html">Add / Edit Questions</a>
-      <a class="btn" href="automatic_grading.html">Automatic Grading</a>
-      <a class="btn" href="reports.html">Generate Reports</a>
-      <a class="btn" href="update_profile.html">Update Profile</a>
+    <div class="form-container">
+      <form>
+        <label>Select Exam</label>
+        <select>
+          <option>Select an exam...</option>
+          <option>Midterm Exam</option>
+          <option>Final Exam</option>
+          <option>Quiz 1</option>
+          <option>Quiz 2</option>
+        </select>
+
+        <button class="btn">Start Grading</button>
+      </form>
     </div>
 
     <footer>

@@ -1,5 +1,4 @@
 body {
-
   margin: 0;
   font-family: Arial, sans-serif;
   background: #f3f3f3;
@@ -35,17 +34,34 @@ nav a:hover {
   background: #ecf0f1;
 }
 
-.btn-container {
-  width: 60%;
+.form-container {
+  width: 50%;
   margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px #bbb;
+}
+
+form {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  align-items: center;
+  gap: 15px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  padding: 12px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  font-size: 15px;
 }
 
 .btn {
-  width: 100%;
+  margin-top: 20px;
   padding: 15px;
   font-size: 18px;
   background: #3498db;
@@ -69,14 +85,3 @@ footer {
   padding: 10px 0;
   margin-top: 60px;
 }
-a{
-  text-decoration: none;
-  color: white;
-  text-align: center;
-
-}
-a:hover{
-  text-decoration: none;
-  color: white;
-}
-
