@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-     <header>
+    <header>
         <h1>College Examination Management System</h1>
         <p>Welcome to the Official Exam Portal</p>
     </header>
@@ -21,19 +21,25 @@
     </nav>
 
     <form action="home.html" method="post" class="form" name="myform">
-        <h3>Login</h3>
+        <h3>Sign Up</h3>
         <div class="sign1">
+            <label for=""id="name1" >First Name</label>
+            <input type="text" name="FirstName" id="name1"  placeholder="First Name" class="input">
+
+            <label for=""id="name2">Last Name</label>
+            <input type="text" name="Last Name" id="name2"  placeholder="Last Name" class="input">
+
             <label for=""id="email">ID</label>
-            <input type="text" name="Email" id="email" placeholder="id.." class="input" >
+            <input type="text" name="Email" id="email" placeholder="ID" class="input" >
 
             <label for=""id="password">Password</label>
-            <input type="password" name="Password" id="password" placeholder="Password.." class="input" >
+            <input type="password" name="Password" id="password"  placeholder="Password" class="input">
         </div>
-        <button type="submit"  name="submit" class="btn">Login</button>
+        <button type="submit"  name="submit" class="btn">Sign up</button>
     </form>
-      
+    
     <div class="warning">
-    <span>You don’t have an account?</span> <a href="signUp.html" class="a1">Sign up</a>
+    <span>Already have an account?</span> <a href="login.html" class="a1">Login</a>
 
     <footer>
         <p>© 2025-2026 College Examination System</p>
